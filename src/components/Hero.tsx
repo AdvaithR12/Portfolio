@@ -54,12 +54,12 @@ const Hero = () => {
                 transition={{ duration: 0.8 }}
                 className="mb-6"
               >
-                <p className="text-green-400 text-lg mb-2 font-mono">hi! my name is</p>
+                <p className="text-green-500 text-lg mb-2 font-mono">hi! my name is</p>
                 <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-4">
                   Advaith R
                 </h1>
                 <p className="text-2xl md:text-3xl text-gray-900 dark:text-gray-300 mb-6">
-                  I am <span className="text-green-400">a Software Engineer.</span>
+                  I am <span className="text-green-500">a Software Engineer.</span>
                 </p>
               </motion.div>
 
@@ -68,7 +68,7 @@ const Hero = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
                 onClick={() => scrollToSection('about')}
-                className="px-8 py-3 border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-gray-900 transition-all duration-300 rounded-lg font-medium mb-8"
+                className="px-8 py-3 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-gray-900 transition-all duration-300 rounded-lg font-medium mb-8"
               >
                 About Me
               </motion.button>
