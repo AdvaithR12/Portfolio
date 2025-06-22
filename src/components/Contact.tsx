@@ -7,13 +7,13 @@ const Contact = () => {
       icon: Mail,
       label: 'Email',
       value: 'advaithr.30@gmail.com',
-      href: 'https://mail.google.com/mail/?view=cm&to=advaithr.30@gmail.com',
+      href: 'mailto:advaithr.30@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
       value: '+91 8921347927',
-      href: 'tel:+15551234567',
+      href: 'tel:+918921347927',
     },
     {
       icon: MapPin,
