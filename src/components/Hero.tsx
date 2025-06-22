@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, Instagram, Twitter } from 'lucide-react';
 import ParticleBackground from './ParticleBackground';
+import TypingAnimation from './TypingAnimation';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -59,7 +60,7 @@ const Hero = () => {
                   Advaith R
                 </h1>
                 <p className="text-2xl md:text-3xl text-gray-900 dark:text-gray-300 mb-6">
-                  I am <span className="text-green-500">a Software Engineer.</span>
+                  <TypingAnimation />
                 </p>
               </motion.div>
 
