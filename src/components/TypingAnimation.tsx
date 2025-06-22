@@ -33,8 +33,11 @@ const TypingAnimation = () => {
   }, []);
 
   return (
-    <span className="text-green-500">
-      a Software {words[index].substring(0, subIndex)}
+    <span
+      className="text-green-500 inline-block"
+      style={{ width: '9ch', whiteSpace: 'nowrap' }}
+    >
+      Software {words[index].substring(0, subIndex)}
       <span className="inline-block ml-1" style={{ visibility: blink ? 'visible' : 'hidden' }}>
         |
       </span>.

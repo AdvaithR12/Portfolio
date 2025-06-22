@@ -46,7 +46,7 @@ const Hero = () => {
       {/* z-10 wrapper to stay above the canvas */}
       <div className="relative z-10 flex items-center justify-center min-h-screen">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row items-center justify-between">
+          <div className="flex flex-col lg:flex-row justify-between">
             {/* Left Content */}
             <div className="lg:w-1/2 text-left">
               <motion.div
@@ -60,7 +60,7 @@ const Hero = () => {
                   Advaith R
                 </h1>
                 <p className="text-2xl md:text-3xl text-gray-900 dark:text-gray-300 mb-6">
-                  <TypingAnimation />
+                Im a <TypingAnimation />
                 </p>
               </motion.div>
 
