@@ -9,13 +9,13 @@ import Footer from './components/Footer';
 function App() {
   return (
     <ThemeProvider>
-      <div className="font-mono bg-gray-900 dark:bg-gray-900 text-white transition-colors duration-300">
+      <div className="w-full min-h-screen overflow-x-hidden bg-[#1a1a2e] dark:bg-[#0f0f23] text-white font-mono">
         <Header />
         <Hero />
         <About />
         <Projects />
         <Contact />
-        <Footer/>
+        <Footer />
       </div>
     </ThemeProvider>
   );

@@ -63,7 +63,6 @@ const About = () => {
           <p className="text-green-500 text-lg mb-4 font-mono">01. INTRO</p>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8">About Me</h2>
         </motion.div>
-
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <motion.div
@@ -72,18 +71,14 @@ const About = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="space-y-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed text-justify">
+            <div className="space-y-6 text-gray-700 dark:text-gray-300 text-lg leading-relaxed text-left sm:text-justify">
               <p>
                 Why, hello there! My name is Advaith. I'm a Software Engineer with a strong focus on Full stack development. Proficient in modern JavaScript frameworks like Angular and React and skilled in backend systems using Java, Spring Boot, Node.js, and MySQL to support seamless integration. Passionate about translating complex workflows into simple, intuitive interfaces and collaborating with designers, product managers, and end-users to deliver high-impact digital experiences.
               </p>
-              <p>
-                I'm always on the look out for opportunities that could broaden and 
-                enhance my skillset. I enjoy working on challenging projects and love 
-                collaborating with others to bring new ideas to life.
-              </p>
-              <p className="text-green-500 font-medium">
-                Let's get to work, shall we?
-              </p>
+              <p> 
+                I'm always on the look out for opportunities that could broaden and enhance my skillset. I enjoy working on challenging projects and love collaborating with others to bring new ideas to life.
+                </p>
+              <p className="text-green-500 font-medium">Let's get to work, shall we?</p>
               <blockquote className="border-l-4 border-green-500 pl-6 italic text-gray-600 dark:text-gray-400">
                 "Styles come and go. Good design is a language, not a style."
                 <br />
@@ -123,10 +118,8 @@ const About = () => {
             <div className="relative">
               <div
                 ref={tagCloudRef}
-                className="tagcloud"
+                className="tagcloud w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]"
                 style={{
-                  width: '400px',
-                  height: '400px',
                   fontSize: '16px',
                   color: 'var(--tag-color)',
                   position: 'relative',
@@ -138,6 +131,7 @@ const About = () => {
             </div>
           </motion.div>
         </div>
+
       </div>
     </section>
   );
