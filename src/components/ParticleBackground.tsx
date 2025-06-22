@@ -53,7 +53,7 @@ const ParticleBackground = () => {
             opacity: 0.4,
             width: 1
           },
-          move: { enable: true, speed: 6, out_mode: 'out' }
+          move: { enable: true, speed: 4, out_mode: 'out' }
         },
         interactivity: {
           detect_on: 'canvas',
