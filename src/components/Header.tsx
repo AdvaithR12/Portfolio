@@ -49,7 +49,7 @@ const Header = () => {
             transition={{ delay: 0.2 }}
             className="text-2xl font-bold text-gray-900 dark:text-white"
           >
-            <span>Advaith &nbsp;</span>
+            <span>Advaith </span>
             <span className="text-green-500">R</span>
           </motion.div>
 
