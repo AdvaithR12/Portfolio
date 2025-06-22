@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, ExternalLink, Dribbble, Zap } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 
 declare global {
   interface Window {
